@@ -17,7 +17,6 @@ tf.disable_v2_behavior()
 
 ```
 
-
 During training of your tensorflow model, a checkpoint can be saved using the tensorflow saver:
 
 ```
@@ -64,7 +63,7 @@ model_madry.conv1.weight = torch.nn.Parameter(weights_cv1)
 #### 5. Test or retrain your model
 Now you can run a test to see if accuracies match. 
 
-#### 6. Congratulaions you're Done!
+#### 6. Congratulations you're Done!
 
 ## Authors
 
