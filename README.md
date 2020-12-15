@@ -72,5 +72,6 @@ Now you can run a test to see if accuracies match.
 ## Acknowledgments
 
 * Dylan Paiton, Bethge Lab
-* Medium article by Thomas Wolf [ From TensorFlow to PyTorch](https://medium.com/huggingface/from-tensorflow-to-pytorch-265f40ef2a28)
+* Medium article by Thomas Wolf [ From TensorFlow to PyTorch](https://medium.com/huggingface/from-tensorflow-to-pytorch-265f40ef2a28) //
+
 This work was done to convert the Madry adversarial robust model to analyse it with the [Adversarial Decomposition](https://github.com/david-schu/AdversarialDecomposition/) method.
