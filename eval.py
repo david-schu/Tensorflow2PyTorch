@@ -51,4 +51,4 @@ def evalAdvAttack(model=None, test_loader=None):
         correct += (finalPred == ys.cpu().detach().numpy()).sum()
         total += test_loader.batch_size
     acc = float(correct) / total
-    print('Adv accuracy: {:.3f}％'.format(acc * 100))
+    print('Adv accuracy: %.2f%%' % (acc * 100))
